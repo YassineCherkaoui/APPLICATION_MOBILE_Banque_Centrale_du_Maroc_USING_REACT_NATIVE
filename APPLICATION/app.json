@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "BestRepas",
-    "slug": "BestRepas",
+    "name": "my-money",
+    "slug": "my-money",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
