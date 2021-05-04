@@ -424,10 +424,7 @@ const HomeScreen = ({navigation}) => {
                 flex:1,
             }}
         >
-            {/* <View style={style.header} >
-                <Icon name="arrow-back-ios" size={28} />
-                <Text style={{fontSize:20,fontWeight:'bold'}}> Cart </Text>
-            </View> */}
+
             <View style={{
                 justifyContent:'center',
                 alignItems:'center',
@@ -438,74 +435,7 @@ const HomeScreen = ({navigation}) => {
             }}>
                 <Text style={{fontSize:17,fontWeight:'bold'}}>Taux</Text>
             </View>
-            {/* ---------------------------------------------------- */}
-            {/* MAD-1 */}
-            {/* <View style={style.cartCard} >
-                <View style={{
-                    height:100,
-                    marginLeft:10,
-                    paddingVertical:20,
-                    flex:1,
-                    flexDirection: 'row',
-                    justifyContent:'space-between'
-                }} >
-                    
-
-                    
-                    <View style={{flexDirection:'row'}} >
-                        <View style={{alignItems:'center',justifyContent:'center'}}>
-                            <Text style={{fontSize:17,fontWeight:'bold'}}>EUR : </Text>
-                        </View>
-                        
-                        <View style={{marginLeft:10}}>
-                            <TextInput 
-                                style={style.input}
-                                // placeholder='new todo...'
-                                keyboardType="numeric"
-                                value="1255"
-                                // onChangeText={setAmountAUD}
-                            />
-                            <View style={{flexDirection:'row'}} >
-                            
-                                <View style={style.actionBtn} onPress={() => Alert.alert('Simple Button pressed')}>
-                                    <Icon name="remove" size={25} color={COLORS.white} onPress={() => console.log('Pressed')}/>
-                                    
-                                </View>
-                                <Text> </Text>
-                                <TouchableOpacity onPress={subtract}>
-                                    <View style={style.actionBtn}>
-                                        <Icon name="add" size={25} color={COLORS.white} />
-                                    </View>    
-                                </TouchableOpacity>
-                                
-
-                            </View>
-                        </View>
-                    </View>
-                    <View  style={{alignItems:'center',justifyContent:'center'}}>
-                        <Image 
-                            style={{
-                                width:30,
-                                height:30,
-                                // justifyContent:'center',
-                                // alignItems:'center',
-                            }}
-                            source={require("../../assets/iconfinder_transaction.png")}
-                        />
-                    </View>
-                    
-                    <View style={{alignItems:'center',justifyContent:'center'}}>
-                        <Text style={{fontWeight:'bold',fontSize:18}} >MAD</Text>
-                        <Text style={{fontSize:13,color:COLORS.grey}} >=</Text>
-
-                        <Text style={{fontSize:17,fontWeight:'bold'}} >100.00</Text>
-                    </View>
-                </View>
-            </View> */}
-            {/* ---------------------------------------------------- */}
-
-
-
+         
 
             <ScrollView style={style.scrollView}>
                 {/* 1 - START MAD */}
@@ -520,7 +450,7 @@ const HomeScreen = ({navigation}) => {
                     }} >
                         <View style={{flexDirection:'row'}} >
                             <View style={{alignItems:'center',justifyContent:'center'}}>
-                                <Text style={{fontSize:17,fontWeight:'bold'}}>{fromCurrencytoto} : </Text>
+                                <Text style={{fontSize:17,fontWeight:'bold'}}>{fromCurrencytoto} = </Text>
                             </View>
                             <View style={{marginLeft:10}}>
                                 <TextInput 
@@ -576,7 +506,7 @@ const HomeScreen = ({navigation}) => {
                     }} >
                         <View style={{flexDirection:'row'}} >
                             <View style={{alignItems:'center',justifyContent:'center'}}>
-                                <Text style={{fontSize:17,fontWeight:'bold'}}>{fromCurrencytoto} : </Text>
+                                <Text style={{fontSize:17,fontWeight:'bold'}}>{fromCurrencytoto} = </Text>
                             </View>
                             <View style={{marginLeft:10}}>
                                 <TextInput 
@@ -714,13 +644,13 @@ const HomeScreen = ({navigation}) => {
                             </View>
                         </View>
                         <View  style={{alignItems:'center',justifyContent:'center'}}>
-                            <Image 
+                            {/* <Image 
                                 style={{
                                     width:30,
                                     height:30,
                                 }}
                                 source={require("../../assets/iconfinder_transaction.png")}
-                            />
+                            /> */}
                         </View>
                         
                         <View style={{alignItems:'center',justifyContent:'center'}}>
