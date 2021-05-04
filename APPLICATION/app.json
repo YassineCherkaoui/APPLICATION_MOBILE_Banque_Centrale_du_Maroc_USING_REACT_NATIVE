@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "my-money",
-    "slug": "my-money",
+    "name": "BankMaroc",
+    "slug": "BankMaroc",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "https://previews.123rf.com/images/tolkachev/tolkachev1911/tolkachev191108299/134140332-stock-market-chart-with-trading-desk-bank-office-interior-on-background-double-exposure-concept-of-f.jpg",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -22,8 +22,9 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "backgroundColor": "#000"
+      },
+      "package": "com.yassineaibi.doneWithIt"
     },
     "web": {
       "favicon": "./assets/favicon.png"
